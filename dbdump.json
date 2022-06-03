@@ -1,0 +1,4403 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "authtoken",
+        "model": "tokenproxy"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialaccount"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialapp"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialtoken"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "account",
+        "model": "emailaddress"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "account",
+        "model": "emailconfirmation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "arenda",
+        "model": "reservation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "custom_user",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "flat",
+        "model": "flat"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "flat",
+        "model": "review"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "flat",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "robokassa",
+        "model": "successnotification"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "crontabschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "intervalschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictask"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictasks"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "solarschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "clockedschedule"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "abggs4irkc2yu1zmsorjxqej9tpt090x",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyHgdoF6sz_SLAsNxIYmAifjv9uaHvQ4b2beS8zUW5p7jc85B3ETWlx-mSd-xHIUtK4HlsS89dLkd3PWVd73FEvLTC1vZTpff6pENe0eDsFFsIoMaoZFAdLVoXPeO1iMsTAwI2Agz3H0WttoeCCyTmsFFkfx_gC-ljwW:1lo7XJ:mTgVY9yGoB7WKbB0pg71kfDWj2-5XcSCt4F4kGNV3_M",
+        "expire_date": "2021-06-15T16:46:37.812Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gpnd23g4qfv9m862oxnsphh18145u006",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBwCkxduu8ZyDBMpWpoUtqV8e7apAvd_vfef6lI21ri1mSJU1YXZdXpd0vED6k7yHeqt1nzXNdlSnpX9EGbHuYsz-vh_h0UauVbc84oEAx5ZxlGA47O6BBTQhi9D9AxO3CZEkufrA3iuSMKaK2B4Hr1_gDmmjei:1llGaz:abDoAKIC4KKWz4CMuN0SChQavlwQEbCMuurQ5pOqVhU",
+        "expire_date": "2021-06-07T19:50:37.473Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "vk",
+        "name": "vk",
+        "client_id": "7862180",
+        "secret": "2Vq4ZHo5hBnHY5ZDOFj8",
+        "key": "169767b0169767b0169767b09916e0901411697169767b0763dbd69b06788d7049dafb1",
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "google",
+        "client_id": "81619104926-el8u2agspr61kgvb3m9emjf0usecdti2.apps.googleusercontent.com",
+        "secret": "61twu0_A96F9C4xt_y-nNVzv",
+        "key": "",
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 1,
+        "account": 1,
+        "token": "56e5d3bc680735abeaca5867cee6c99a231ea212f3e0cf5fdc19574de915913e8dfa93958c79e8f3763f6",
+        "token_secret": "",
+        "expires_at": "2021-05-31T09:51:40.123Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 2,
+    "fields": {
+        "app": 2,
+        "account": 2,
+        "token": "ya29.a0AfH6SMAJKxTSsdoIzuzQnD9nftC4u3mL48Li19AU1kogRe1O9s5Ieb8D8oHhRqIegP3EVj6pyaT5V2iDBIqI6kFqyib1n1rSlwSPVD2fTiKSUnnNn17phm2GaJp-76OcQFFuS7jxb6_kN-gPvzwzcKwK-g2U",
+        "token_secret": "",
+        "expires_at": "2021-05-30T11:32:01.112Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 3,
+    "fields": {
+        "app": 2,
+        "account": 3,
+        "token": "ya29.a0AfH6SMARlhZDUjl-ffxqatJEDUhA7zCS2L4BGTcMl3D4m8zo_JasHglkDpf9D6eaKy_cIt2wRuusxSdnz3hKCpffJY5ihiT7doLwuX30VYMBRfrQ7qm3lj9g0DoVGHvekhsh9MlvcS-IRxND825KHoyzgwS5",
+        "token_secret": "",
+        "expires_at": "2021-05-30T11:45:03.235Z"
+    }
+},
+{
+    "model": "flat.flat",
+    "pk": 1,
+    "fields": {
+        "city": "Краснодар",
+        "address": "Покрышкина 2/2",
+        "zip_code": 350005,
+        "empty": true,
+        "photo": "photos/2021/05/25/3236962244193224_d723_4kKsXhS.jpg"
+    }
+},
+{
+    "model": "flat.flat",
+    "pk": 2,
+    "fields": {
+        "city": "Краснодар",
+        "address": "Покрышкина 4",
+        "zip_code": 350005,
+        "empty": true,
+        "photo": "photos/2021/05/25/3236962244193224_d723_e5QH6VN.jpg"
+    }
+},
+{
+    "model": "flat.flat",
+    "pk": 3,
+    "fields": {
+        "city": "Краснодар",
+        "address": "Покрышкина 3",
+        "zip_code": 350005,
+        "empty": true,
+        "photo": "photos/2021/05/25/3236962244193224_d723_cUFytan.jpg"
+    }
+},
+{
+    "model": "flat.flat",
+    "pk": 4,
+    "fields": {
+        "city": "Краснодар",
+        "address": "Покрышкина 5",
+        "zip_code": 350005,
+        "empty": false,
+        "photo": "photos/2021/05/25/3236962244193224_d723.jpg"
+    }
+},
+{
+    "model": "flat.image",
+    "pk": 14,
+    "fields": {
+        "flat": 4,
+        "image": "photos/3236962244193224_d723_vlCCM0s.jpg"
+    }
+},
+{
+    "model": "flat.image",
+    "pk": 15,
+    "fields": {
+        "flat": 4,
+        "image": "photos/3236962244193224_d723_oQDG8zL.jpg"
+    }
+},
+{
+    "model": "flat.image",
+    "pk": 16,
+    "fields": {
+        "flat": 4,
+        "image": "photos/3236962244193224_d723_TWD8kdc.jpg"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add token",
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change token",
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete token",
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view token",
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "add_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "change_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "delete_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "view_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "add_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "change_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "delete_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "view_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "add_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "change_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "delete_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "view_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "add_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "change_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "delete_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "view_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "add_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "change_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "delete_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "view_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Бронирование",
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "codename": "add_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Бронирование",
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "codename": "change_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Бронирование",
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "codename": "delete_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Бронирование",
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "codename": "view_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Пользователь",
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Пользователь",
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Пользователь",
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Пользователь",
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Квартира",
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "codename": "add_flat"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Квартира",
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "codename": "change_flat"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Квартира",
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "codename": "delete_flat"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Квартира",
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "codename": "view_flat"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Отзывы",
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Отзывы",
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Отзывы",
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Отзывы",
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Фотография",
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Фотография",
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Фотография",
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Фотография",
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Уведомление об успешном платеже",
+        "content_type": [
+            "robokassa",
+            "successnotification"
+        ],
+        "codename": "add_successnotification"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Уведомление об успешном платеже",
+        "content_type": [
+            "robokassa",
+            "successnotification"
+        ],
+        "codename": "change_successnotification"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Уведомление об успешном платеже",
+        "content_type": [
+            "robokassa",
+            "successnotification"
+        ],
+        "codename": "delete_successnotification"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Уведомление об успешном платеже",
+        "content_type": [
+            "robokassa",
+            "successnotification"
+        ],
+        "codename": "view_successnotification"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add interval",
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change interval",
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view interval",
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add periodic tasks",
+        "content_type": [
+            "django_celery_beat",
+            "periodictasks"
+        ],
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change periodic tasks",
+        "content_type": [
+            "django_celery_beat",
+            "periodictasks"
+        ],
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete periodic tasks",
+        "content_type": [
+            "django_celery_beat",
+            "periodictasks"
+        ],
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view periodic tasks",
+        "content_type": [
+            "django_celery_beat",
+            "periodictasks"
+        ],
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": [
+            "django_celery_beat",
+            "solarschedule"
+        ],
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": [
+            "django_celery_beat",
+            "solarschedule"
+        ],
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": [
+            "django_celery_beat",
+            "solarschedule"
+        ],
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": [
+            "django_celery_beat",
+            "solarschedule"
+        ],
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": [
+            "django_celery_beat",
+            "clockedschedule"
+        ],
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": [
+            "django_celery_beat",
+            "clockedschedule"
+        ],
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": [
+            "django_celery_beat",
+            "clockedschedule"
+        ],
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": [
+            "django_celery_beat",
+            "clockedschedule"
+        ],
+        "codename": "view_clockedschedule"
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$YEwt91OKTOWbfImRWVquIk$PnQ28MjPuTknWK+2ARyOBxSJFAjBH3JYtfpa/lwvnmo=",
+        "last_login": "2021-06-01T16:46:37Z",
+        "is_superuser": true,
+        "first_name": "Матвей",
+        "last_name": "Семёнов",
+        "email": "matveytri777@gmail.com",
+        "phone": "89282710567",
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$rJ0F7d0ZNVDJhDSFMeJafD$IL0qZUjeVhGOKnpxFuieHDf10LBsCSvsbKniMsmxp/Q=",
+        "last_login": "2021-05-23T20:15:45Z",
+        "is_superuser": false,
+        "first_name": "Matvey",
+        "last_name": "Семёнов",
+        "email": "samatmemen2002@gmail.com",
+        "phone": "",
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "!6nc5qei5hKKqrdDLQOQD919K66byTzTR3Oe5hTiN",
+        "last_login": "2021-05-30T09:51:41.843Z",
+        "is_superuser": false,
+        "first_name": "Матвей",
+        "last_name": "Семенов",
+        "email": "ggwfmat@mail.ru",
+        "phone": "",
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$VeyCX1fVEguKFcDgcrLB00$YDfmx/qCH6h/3YC0fj8ck/SFY9VT42D65SaRPiBSjss=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "Матвей",
+        "last_name": "Семёнов",
+        "email": "matveytri912312399@mail.ru",
+        "phone": "",
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "!RQ8fFmqwuH0XZljXdL9HX6f1BMSzB2tUABRH1EFA",
+        "last_login": "2021-05-30T10:32:08.029Z",
+        "is_superuser": false,
+        "first_name": "no",
+        "last_name": "reply",
+        "email": "noreplyarenda@gmail.com",
+        "phone": "",
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_user.customuser",
+    "fields": {
+        "password": "!tumXIBaYDfQUp35VmTIkrOi6K07P9lZTpjUmxiNO",
+        "last_login": "2021-05-30T10:45:04.545Z",
+        "is_superuser": false,
+        "first_name": "Matvey",
+        "last_name": "Semenov",
+        "email": "matveysem02@gmail.com",
+        "phone": "",
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 17,
+    "fields": {
+        "flat": 3,
+        "author": [
+            "samatmemen2002@gmail.com"
+        ],
+        "rating": 5,
+        "text": "qwe",
+        "created": "2021-05-27T13:00:01.114Z"
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 19,
+    "fields": {
+        "flat": 4,
+        "author": [
+            "ggwfmat@mail.ru"
+        ],
+        "rating": 3,
+        "text": "nyutnytnytnty",
+        "created": "2021-05-27T13:36:56.625Z"
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 21,
+    "fields": {
+        "flat": 4,
+        "author": [
+            "matveytri912312399@mail.ru"
+        ],
+        "rating": 5,
+        "text": "gvre",
+        "created": "2021-05-27T13:42:00.828Z"
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 31,
+    "fields": {
+        "flat": 4,
+        "author": [
+            "matveytri777@gmail.com"
+        ],
+        "rating": 5,
+        "text": "231i8greыфв",
+        "created": "2021-05-27T14:38:48.136Z"
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 32,
+    "fields": {
+        "flat": 3,
+        "author": [
+            "matveytri777@gmail.com"
+        ],
+        "rating": 5,
+        "text": "j76j67",
+        "created": "2021-05-27T14:43:49.998Z"
+    }
+},
+{
+    "model": "flat.review",
+    "pk": 33,
+    "fields": {
+        "flat": 4,
+        "author": [
+            "matveytri777@gmail.com"
+        ],
+        "rating": 5,
+        "text": "Top",
+        "created": "2021-05-30T18:54:33.245Z"
+    }
+},
+{
+    "model": "arenda.reservation",
+    "pk": 59,
+    "fields": {
+        "flat": 4,
+        "client": [
+            "matveytri777@gmail.com"
+        ],
+        "arenda_date_start": "2021-06-03T12:00:00Z",
+        "arenda_date_finish": "2021-06-04T12:00:00Z"
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "email": "matveytri777@gmail.com",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "samatmemen2002@gmail.com"
+        ],
+        "email": "samatmemen2002@gmail.com",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "ggwfmat@mail.ru"
+        ],
+        "email": "ggwfmat@mail.ru",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "matveytri912312399@mail.ru"
+        ],
+        "email": "matveytri912312399@mail.ru",
+        "verified": false,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "noreplyarenda@gmail.com"
+        ],
+        "email": "noreplyarenda@gmail.com",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "matveysem02@gmail.com"
+        ],
+        "email": "matveysem02@gmail.com",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "email": "matveytri999@mail.ru",
+        "verified": false,
+        "primary": false
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "ggwfmat@mail.ru"
+        ],
+        "provider": "vk",
+        "uid": "172215139",
+        "last_login": "2021-05-30T09:51:41.385Z",
+        "date_joined": "2021-05-23T22:47:54.001Z",
+        "extra_data": "{\"first_name\": \"Matvey\", \"id\": 172215139, \"last_name\": \"Semyonov\", \"can_access_closed\": true, \"is_closed\": false, \"sex\": 2, \"screen_name\": \"wannafckingdie\", \"online\": 0, \"nickname\": \"\", \"bdate\": \"1.2.1971\", \"timezone\": 3.0, \"photo_max_orig\": \"https://sun2-12.userapi.com/s/v1/ig2/wxtgoEhjA36NbcR-fku6WxLCZnRWjp1dOBXhwW5etUv7rNdiWMNJCHLb9-n0AGZ8ZXFGsiBC4zlFQVZ6PYVMhnvc.jpg?size=400x0&quality=96&crop=0,0,564,564&ava=1\", \"has_mobile\": 1, \"photo_medium\": \"https://sun2-12.userapi.com/s/v1/ig2/FjaCPRpGQ8x3njzkYcpMkPs7dOx8g8d23jtJHj6Dz1G2kBp1lRhrXYs-oTOpt_GXMIC0P908dVs_eOeAIvJm-H0H.jpg?size=100x0&quality=96&crop=0,0,564,564&ava=1\", \"photo\": \"https://sun2-12.userapi.com/s/v1/ig2/KwQUyzxVif0gH4DdgVaqnSpNE5r2TCOftTiQ6r9NK8U08HSeVmjchjdErULBxdwvhTn-rsqjbkbZArNn3hh-xUNF.jpg?size=50x0&quality=96&crop=0,0,564,564&ava=1\", \"photo_big\": \"https://sun2-12.userapi.com/s/v1/ig2/iofNHUkdTa1sduM8auQ5tJw4mu2L0KJeTDix2TvTj0dgV7GLG9OEXbd5YVsMh-oqfIb8LeR0xozt4abZnPnCCO2J.jpg?size=200x0&quality=96&crop=0,0,564,564&ava=1\", \"home_phone\": \"\", \"activity\": \"\\u043e\\u0431\\u0430\\u043c\\u0430 \\u0435\\u0431\\u0430\\u0448\\u0438\\u0442 \\u043d\\u0430 \\u0441\\u0442\\u0440\\u043e\\u0439\\u043a\\u0435\", \"last_seen\": {\"platform\": 7, \"time\": 1622367952}, \"university\": 0, \"university_name\": \"\", \"faculty\": 0, \"faculty_name\": \"\", \"graduation\": 0, \"relation\": 0, \"universities\": [], \"counters\": {\"albums\": 3, \"audios\": 401, \"followers\": 807, \"friends\": 145, \"gifts\": 204, \"online_friends\": 24, \"pages\": 4, \"photos\": 5, \"subscriptions\": 0, \"videos\": 290, \"new_photo_tags\": 0, \"new_recognition_tags\": 0, \"clips_followers\": 952, \"groups\": 8}, \"email\": \"ggwfmat@mail.ru\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "noreplyarenda@gmail.com"
+        ],
+        "provider": "google",
+        "uid": "109123533460884262296",
+        "last_login": "2021-05-30T10:32:07.400Z",
+        "date_joined": "2021-05-30T10:32:07.400Z",
+        "extra_data": "{\"id\": \"109123533460884262296\", \"email\": \"noreplyarenda@gmail.com\", \"verified_email\": true, \"name\": \"no reply\", \"given_name\": \"no\", \"family_name\": \"reply\", \"picture\": \"https://lh3.googleusercontent.com/a/AATXAJzmD3bpWFstMX8S88xtqEe6saon6MP5Nkz7Q_Qn=s96-c\", \"locale\": \"ru\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "matveysem02@gmail.com"
+        ],
+        "provider": "google",
+        "uid": "105611077074269015994",
+        "last_login": "2021-05-30T10:45:04.410Z",
+        "date_joined": "2021-05-30T10:35:35.275Z",
+        "extra_data": "{\"id\": \"105611077074269015994\", \"email\": \"matveysem02@gmail.com\", \"verified_email\": true, \"name\": \"Matvey Semenov\", \"given_name\": \"Matvey\", \"family_name\": \"Semenov\", \"picture\": \"https://lh3.googleusercontent.com/a/AATXAJwM7GCHVzt-W74pZ8WuZ7ZaGIqR2H3gS69EU7td=s96-c\", \"locale\": \"ru\"}"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "b1ce2cca4a4c2677891c39673f030ab16680efb7",
+    "fields": {
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "created": "2021-05-23T15:18:36.119Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "cdc00a1279369693ed20ab42cd5deae89353d11a",
+    "fields": {
+        "user": [
+            "samatmemen2002@gmail.com"
+        ],
+        "created": "2021-05-23T20:15:11.344Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "def454fbe8510e1a1131454491c96f1f30acc6dd",
+    "fields": {
+        "user": [
+            "matveytri912312399@mail.ru"
+        ],
+        "created": "2021-05-23T22:51:40.669Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-05-23T15:21:27.132Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "1",
+        "object_repr": "Покрышкина 2/2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-05-23T15:21:44.584Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "2",
+        "object_repr": "Покрышкина 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-05-23T15:21:50.747Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "3",
+        "object_repr": "Покрышкина 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-05-23T15:21:58.420Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "4",
+        "object_repr": "Покрышкина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-05-23T15:24:09.745Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "1",
+        "object_repr": "2021-05-23 15:232021-05-24 15:23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-05-23T15:25:20.386Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "2",
+        "object_repr": "2021-05-23 15:23 - 2021-05-27 15:25",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-05-23T15:25:31.109Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "3",
+        "object_repr": "2021-05-23 15:25 - 2021-05-26 15:25",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-05-23T15:36:43.799Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "1",
+        "object_repr": "5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-05-23T15:38:43.584Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "2",
+        "object_repr": "3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-05-23T22:47:07.689Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "vk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-05-23T22:48:50.995Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "object_id": "3",
+        "object_repr": "ggwfmat@mail.ru",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Verified\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-05-23T22:54:13.413Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "object_id": "2",
+        "object_repr": "Matvey Семёнов",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-05-24T20:11:59.638Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "object_id": "3",
+        "object_repr": "Матвей Семенов",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-05-24T20:12:38.439Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "object_id": "1",
+        "object_repr": "Матвей Семёнов",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\", \"Email\", \"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-05-24T20:33:07.565Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "Фото для: Покрышкина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-05-24T20:33:13.861Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "Фото для: Покрышкина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-05-24T20:33:21.567Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "Фото для: Покрышкина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-05-24T20:34:04.425Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "Фото для: Покрышкина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-05-24T21:21:38.641Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "photos/2021/05/24/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-05-24T21:21:38.698Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "photos/2021/05/24/3236962244193224_d723_lWdL6ii.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-05-24T21:21:38.723Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "photos/2021/05/24/3236962244193224_d723_nSo7gGP.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-05-24T21:21:38.758Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "photos/2021/05/24/3236962244193224_d723.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-05-24T21:21:53.275Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "photos/<built-in function id>/0JHlP-634FU.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-05-24T21:22:40.945Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "photos/<built-in function id>/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-05-24T21:22:58.203Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "photos/<django.db.models.fields.related.ForeignKey>/0JHlP-634FU.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-05-24T21:23:19.688Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "photos/<django.db.models.fields.related.ForeignKey>/0JHlP-634FU_0C4SoeA.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-05-24T21:23:28.613Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "photos/<django.db.models.fields.related.ForeignKey>/0JHlP-634FU_0C4SoeA.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-05-24T21:23:28.630Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "photos/<django.db.models.fields.related.ForeignKey>/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-05-24T21:24:33.928Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "photos/{flat.pk}/0JHlP-634FU.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-05-24T21:24:46.812Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "photos/{flat.pk}/0JHlP-634FU_Rr6T5zc.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-05-24T21:25:34.959Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "photos/{flat.pk}/0JHlP-634FU_Rr6T5zc.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-05-24T21:25:35.002Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "photos/{flat.pk}/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-05-24T21:25:44.418Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "photos/True/0JHlP-634FU.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-05-24T21:32:43.985Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "photos/True/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-05-24T21:32:49.623Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "photos/0JHlP-634FU.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-05-24T21:43:02.572Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "12",
+        "object_repr": "photos/fefa4e8a892d3b50fe63ab013fb52e91.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-05-24T21:43:58.232Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "photos/3236962244193224_d723.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-05-24T22:13:37.095Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "photos/3236962244193224_d723.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-05-24T22:13:37.122Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "12",
+        "object_repr": "photos/fefa4e8a892d3b50fe63ab013fb52e91.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-05-24T22:13:37.146Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "photos/0JHlP-634FU.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-05-24T22:13:45.438Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "photos/3236962244193224_d723_vlCCM0s.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-05-24T22:13:49.407Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "15",
+        "object_repr": "photos/3236962244193224_d723_oQDG8zL.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-05-24T22:13:56.880Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "image"
+        ],
+        "object_id": "16",
+        "object_repr": "photos/3236962244193224_d723_TWD8kdc.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-05-25T11:06:05.047Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "4",
+        "object_repr": "Покрышкина 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-05-25T11:06:10.360Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "4",
+        "object_repr": "Покрышкина 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-05-25T11:06:16.087Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "3",
+        "object_repr": "Покрышкина 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-05-25T11:06:20.314Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "3",
+        "object_repr": "Покрышкина 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-05-25T11:06:23.128Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "2",
+        "object_repr": "Покрышкина 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-05-25T11:06:27.332Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "2",
+        "object_repr": "Покрышкина 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-05-25T11:06:31.150Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "1",
+        "object_repr": "Покрышкина 2/2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-05-25T11:06:35.379Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "flat"
+        ],
+        "object_id": "1",
+        "object_repr": "Покрышкина 2/2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-05-25T11:59:37.134Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "2",
+        "object_repr": "3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u0432\\u0442\\u043e\\u0440\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-05-26T00:08:14.787Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "4",
+        "object_repr": "2021-05-26 00:08 - 2021-05-27 00:08",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-05-26T00:10:38.299Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "2",
+        "object_repr": "2021-05-23 15:23 - 2021-05-27 15:25",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-05-26T00:10:38.335Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "4",
+        "object_repr": "2021-05-26 00:08 - 2021-05-27 00:08",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-05-26T00:11:02.871Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "1",
+        "object_repr": "2021-05-23 15:23 - 2021-05-24 15:23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-05-26T00:11:02.926Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "3",
+        "object_repr": "2021-05-23 15:25 - 2021-05-26 15:25",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-05-26T00:11:16.240Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "5",
+        "object_repr": "2021-05-26 00:11 - 2021-05-28 00:11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-05-26T00:11:58.021Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "6",
+        "object_repr": "2021-05-24 00:11 - 2021-05-25 00:11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-05-26T00:12:14.099Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "7",
+        "object_repr": "2021-05-23 00:12 - 2021-05-24 00:12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-05-26T11:34:48.333Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "8",
+        "object_repr": "2021-05-26 11:34 - 2021-05-29 11:34",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-05-26T11:35:56.022Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "9",
+        "object_repr": "2021-05-26 11:35 - 2021-05-27 11:35",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-05-26T11:40:08.348Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "10",
+        "object_repr": "2021-05-26 11:40 - 2021-05-26 11:41",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-05-26T11:41:37.896Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "11",
+        "object_repr": "2021-05-26 11:41 - 2021-05-28 11:41",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-05-26T11:41:48.882Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "12",
+        "object_repr": "2021-05-26 11:41 - 2021-05-26 11:42",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-05-26T11:46:33.172Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "8",
+        "object_repr": "2021-05-26 11:34 - 2021-05-25 11:34",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043e\\u043a\\u043e\\u043d\\u0447\\u0430\\u043d\\u0438\\u044f\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-05-26T11:49:44.183Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "13",
+        "object_repr": "2021-05-26 11:49 - 2021-05-26 11:50",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.386Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "9",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.465Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "8",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.488Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "7",
+        "object_repr": "3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.512Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "6",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.547Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "5",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.597Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "4",
+        "object_repr": "4",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.642Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "3",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.709Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "2",
+        "object_repr": "3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2021-05-26T21:28:16.755Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "1",
+        "object_repr": "5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2021-05-26T21:53:06.271Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "11",
+        "object_repr": "2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2021-05-26T21:53:06.317Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "10",
+        "object_repr": "1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2021-05-27T13:00:01.114Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "17",
+        "object_repr": "5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2021-05-27T13:36:41.989Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "18",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2021-05-27T13:36:56.625Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "19",
+        "object_repr": "3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2021-05-27T13:42:00.829Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "flat",
+            "review"
+        ],
+        "object_id": "21",
+        "object_repr": "5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.038Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "16",
+        "object_repr": "2021-05-05 12:00 - 2021-05-15 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.097Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "17",
+        "object_repr": "2021-05-14 12:00 - 2021-05-21 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.134Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "7",
+        "object_repr": "2021-05-23 00:12 - 2021-05-24 00:12",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.158Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "6",
+        "object_repr": "2021-05-24 00:11 - 2021-05-25 00:11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.209Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "5",
+        "object_repr": "2021-05-26 00:11 - 2021-05-28 00:11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.259Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "8",
+        "object_repr": "2021-05-26 11:34 - 2021-05-25 11:34",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.300Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "9",
+        "object_repr": "2021-05-26 11:35 - 2021-05-27 11:35",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.344Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "10",
+        "object_repr": "2021-05-26 11:40 - 2021-05-26 11:41",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.388Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "11",
+        "object_repr": "2021-05-26 11:41 - 2021-05-28 11:41",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.434Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "12",
+        "object_repr": "2021-05-26 11:41 - 2021-05-26 11:42",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.479Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "13",
+        "object_repr": "2021-05-26 11:49 - 2021-05-26 11:50",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.524Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "14",
+        "object_repr": "2021-05-27 12:00 - 2021-05-29 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.580Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "19",
+        "object_repr": "2021-05-28 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.722Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "15",
+        "object_repr": "2021-05-28 12:00 - 2021-05-29 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2021-05-28T13:04:13.750Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "18",
+        "object_repr": "2021-05-29 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2021-05-28T13:28:40.611Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "20",
+        "object_repr": "2021-05-26 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2021-05-28T13:28:40.630Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "21",
+        "object_repr": "2021-05-27 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2021-05-28T13:57:57.608Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "22",
+        "object_repr": "2021-05-29 12:00 - 2021-05-30 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2021-05-28T13:57:57.629Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "23",
+        "object_repr": "2021-05-31 12:00 - 2021-06-01 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2021-05-29T10:26:18.904Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "26",
+        "object_repr": "2021-05-15 10:26 - 2021-05-16 10:26",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2021-05-29T12:40:26.212Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "28",
+        "object_repr": "2021-05-30 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2021-05-29T12:40:26.246Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "24",
+        "object_repr": "2021-05-30 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.119Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "26",
+        "object_repr": "2021-05-15 10:26 - 2021-05-16 10:26",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.165Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "29",
+        "object_repr": "2021-05-30 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.199Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "27",
+        "object_repr": "2021-05-31 12:11 - 2021-06-01 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.249Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "31",
+        "object_repr": "2021-06-01 12:00 - 2021-06-01 19:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.282Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "25",
+        "object_repr": "2021-06-02 12:00 - 2021-06-04 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2021-05-29T12:46:22.315Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "30",
+        "object_repr": "2021-06-04 12:00 - 2021-06-05 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2021-05-30T10:27:16.827Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "google",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2021-05-30T10:28:23.827Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "google",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2021-05-30T11:49:32.471Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "32",
+        "object_repr": "2021-05-30 12:00 - 2021-05-31 12:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043b\\u0438\\u0435\\u043d\\u0442\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2021-05-30T20:11:50.121Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "32",
+        "object_repr": "2021-05-30 12:00 - 2021-05-31 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2021-05-30T20:11:50.204Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "33",
+        "object_repr": "2021-05-31 12:01 - 2021-06-01 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2021-05-30T20:11:50.230Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "37",
+        "object_repr": "2021-06-03 12:00 - 2021-06-04 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2021-06-01T17:34:23.048Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "custom_user",
+            "customuser"
+        ],
+        "object_id": "1",
+        "object_repr": "Матвей Семёнов",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2021-06-01T20:38:31.480Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "44",
+        "object_repr": "2021-02-01 20:38 - 2021-03-01 20:38",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2021-06-01T20:41:19.512Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "45",
+        "object_repr": "2021-01-01 20:41 - 2021-03-01 20:41",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2021-06-01T20:50:11.820Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "46",
+        "object_repr": "2021-03-01 20:50 - 2021-05-01 20:50",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2021-06-01T20:56:58.673Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "47",
+        "object_repr": "2021-04-01 20:56 - 2021-05-01 20:56",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2021-06-01T20:58:16.716Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "48",
+        "object_repr": "2021-03-01 20:58 - 2021-04-01 20:58",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2021-06-01T20:58:26.505Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "49",
+        "object_repr": "2021-03-01 20:58 - 2021-04-01 20:58",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.860Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "42",
+        "object_repr": "2021-06-01 12:00 - 2021-06-02 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.878Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "35",
+        "object_repr": "2021-06-01 12:00 - 2021-06-02 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.904Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "50",
+        "object_repr": "2021-06-02 12:00 - 2021-06-03 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.928Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "39",
+        "object_repr": "2021-06-02 12:00 - 2021-06-03 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.951Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "34",
+        "object_repr": "2021-06-03 12:00 - 2021-06-04 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2021-06-02T14:34:26.986Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "43",
+        "object_repr": "2021-06-05 12:00 - 2021-06-06 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.039Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "36",
+        "object_repr": "2021-06-05 12:00 - 2021-06-06 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.085Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "38",
+        "object_repr": "2021-06-06 12:00 - 2021-06-07 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.129Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "41",
+        "object_repr": "2021-06-07 12:00 - 2021-06-09 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.196Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "52",
+        "object_repr": "2021-06-08 12:00 - 2021-06-09 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.242Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "40",
+        "object_repr": "2021-06-09 12:00 - 2021-06-10 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.308Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "51",
+        "object_repr": "2021-06-23 12:00 - 2021-06-24 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2021-06-02T14:34:27.378Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "53",
+        "object_repr": "2021-06-30 12:00 - 2021-07-01 12:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2021-06-02T14:48:47.417Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "54",
+        "object_repr": "2021-06-03 14:48 - 2021-07-02 14:48",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2021-06-02T14:51:48.704Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "54",
+        "object_repr": "2021-06-03 14:48 - 2021-07-02 14:48",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2021-06-02T14:52:03.201Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "55",
+        "object_repr": "2021-06-03 14:51 - 2021-06-04 14:52",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2021-06-02T14:52:36.633Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "55",
+        "object_repr": "2021-06-03 14:51 - 2021-06-04 14:52",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2021-06-02T14:52:46.076Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "56",
+        "object_repr": "2021-06-02 14:52 - 2021-06-02 14:52",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2021-06-02T14:55:30.092Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "56",
+        "object_repr": "2021-06-02 14:52 - 2021-06-02 14:52",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2021-06-02T14:55:36.107Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "57",
+        "object_repr": "2021-06-02 14:55 - 2021-06-02 14:55",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2021-06-02T14:55:49.691Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "57",
+        "object_repr": "2021-06-02 14:55 - 2021-06-02 14:55",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2021-06-02T14:56:41.192Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "58",
+        "object_repr": "2021-06-03 14:56 - 2021-06-04 14:56",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2021-06-02T14:57:01.744Z",
+        "user": [
+            "matveytri777@gmail.com"
+        ],
+        "content_type": [
+            "arenda",
+            "reservation"
+        ],
+        "object_id": "58",
+        "object_repr": "2021-06-03 14:56 - 2021-06-04 14:56",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

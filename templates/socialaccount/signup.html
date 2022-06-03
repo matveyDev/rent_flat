@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block title %}Регистарция{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 6%;">
+<div class="text-center">
+    <h1>{% trans "Sign Up" %}</h1>
+
+<p>{% blocktrans with provider_name=account.get_provider.name site_name=site.name %}You are about to use your {{provider_name}} account to login to
+{{site_name}}. As a final step, please complete the following form:{% endblocktrans %}</p>
+</div>
+
+<form class="" id="signup_form" method="post" action="{% url 'socialaccount_signup' %}">
+  {% csrf_token %}
+  <label>E-mail: </label>
+  <input class="form-control" for={{ form.email }}
+  {% if redirect_field_value %}
+  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  {% endif %}
+  <p class="text-center"><button class="btn btn-primary mt-2" type="submit">{% trans "Sign Up" %}</button></p>
+</form>
+
+</div>
+{% endblock %}

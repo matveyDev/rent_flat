@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-lg">
+    <a class="navbar-brand" href="#">Аренда квартир</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link " href="/">Главная <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'reviews_list' %}">Отзывы</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'contact_us' %}">Контакты</a>
+        </li>
+      </ul>
+        {% if user.is_authenticated %}
+          <span style="color: white;" >Добро пожаловать, <a style="color: white; text-decoration-line: underline;" href="http://127.0.0.1:8000/profile/update/{{ user.pk }}/">{{ user.first_name }} | Профиль</a> | </span>
+          <a class="navbar-text" href='{% url "logout" %}'>Выход</a>
+        {% else %}
+          <a class="navbar-text" href='{% url "account_login" %}'>Вход | </a>
+          <a class="navbar-text" href='{% url "account_signup" %}'>Регистарция</a>
+        {% endif %}
+          
+
+    </div>
+  </div>
+</nav>

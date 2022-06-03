@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}Отзывы{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+  {% if average_rating.avg != None %}
+    <h3 class="mb-3">Срединй рейтинг: <strong style="color: darkgreen;">{{ average_rating.avg }}</strong></h3>
+  {% else %}
+  <h3 class="mb-3">Отзывов нет</strong></h3>
+  {% endif %}
+{% if messages %}
+      {% for message in messages %}
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+          <div class="text-center alert alert-success">
+            {{ message }}
+          </div>
+        {% endif %}
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+          <div class="text-center alert alert-danger">
+            {{ message }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% for review in reviews %}
+    <div class="card mb-4">
+      <div class="card-header">
+        {% if request.user == review.author  %}
+          Автор: <a href="http://127.0.0.1:8000/profile/update/{{ review.author_id }}/">{{ review.author }} (Вы)</a>
+        {% else %}
+          Автор: <a href="http://127.0.0.1:8000/profile/{{ review.author_id }}/">{{ review.author }}</a>
+        {% endif %}
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Оценка: {{ review.rating }}</h5>
+        <h5 style="font-size: 18px;" class="card-title">Кваритра: <a href="http://127.0.0.1:8000/{{ review.flat_id }}/">{{ review.flat }}</a></h5>
+        <p class="card-text">{{ review.text }}</p>  
+          {% if request.user == review.author %}
+          <a class="btn btn-secondary" href="/reviews/update/{{ review.id }}">Редактировать</a>
+          <a class="btn btn-danger" href="/reviews/delete/{{ review.id }}">Удалить</a>
+          {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

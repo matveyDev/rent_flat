@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Удаление отзыва{% endblock %}
+
+{% block content %}
+{% if request.user == reviews_for_delete.author %}
+<form method="post" class="container text-center" style="padding-top: 5%;">
+  {% csrf_token %}
+
+  <div class="card mb-4">
+    <div class="card-header">
+      Автор: {{ reviews_for_delete.author }}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Рейтинг: {{ reviews_for_delete.rating }}</h5>
+      <p class="card-text">Текст: {{ reviews_for_delete.text }}</p>  
+    </div>
+  </div>
+
+  <input class='btn-lg btn-danger' type="submit" value="Удалить">
+</form>
+{% else %}
+ <h1 class="text-center pt-5">Вы не автор отзыва</h1>
+{% endif %}
+{% endblock %}

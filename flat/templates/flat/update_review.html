@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Обновление отзыва{% endblock %}
+
+{% block content %}
+{% if request.user == reviews_for_update.author %}
+<form method="post" class="container text-center" style="padding-top: 5%;">
+  {% csrf_token %}
+
+  <div class="card mb-4">
+    <div class="card-body">
+      Рейтинг:
+      {% for rating in form.rating %}
+        {{ rating }}
+      {% endfor %}
+      <p>Текст: {{ form.text }}</p>
+    </div>
+  </div>
+
+  <input class='btn-lg btn-success' type="submit" value="Обновить">
+</form>
+{% else %}
+<h1 class="text-center pt-5">Вы не автор отзыва</h1>
+{% endif %}
+{% endblock %}

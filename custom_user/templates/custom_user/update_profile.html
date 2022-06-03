@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Мой профиль
+{% endblock %}
+
+{% block content %}
+
+{% if request.user.pk == user_pk %}
+  <div class="container">
+    <form action="http://127.0.0.1:8000/profile/update/{{ user_pk }}/" method="POST"> {% csrf_token %}
+      <div class="text-center" style="border: 1px solid rgb(224, 224, 224); border-radius: 5px; margin-top: 1%;">
+        <div class="row">
+          <div class="col">
+            <h1 style="padding-top: 3px;">Изменить профиль</h1>
+            <p class="pl-4">Имя: <input class="format-option" for={{ form.first_name }}</p>
+            <p>Фамилия: <input class="form-option" for={{ form.last_name }}</p>
+            <p>Телефон: <input class="form-option" for={{ form.phone }}</p>
+            <p><input class="btn btn-primary mb-2" type="submit" value="Применить"></p>
+    
+            <h3 class="mb-3"><a class="btn-lg btn-primary" href="{% url 'account_email' %}">Смена почты</a>
+              <a class="btn-lg btn-primary" href="{% url 'account_change_password' %}">Смена пароля</a>
+            </h3>
+          </div>
+  
+          <div class="col">
+            {% if reservations %}
+  
+            <h2>Бронирвоания:</h2>
+            {% for reservation in reservations %}
+            <h5 style="color: green;"><a href="http://127.0.0.1:8000/{{ reservation.flat_id }}/">{{ reservation.flat }}</a> - {{ reservation }}</h5>
+            {% endfor %}
+            {% else %}
+            <h2>Нет бронирований</h2>
+          {% endif %}
+          </div>
+        </div>
+      </div>
+        
+        
+        {% if reviews %}
+        <h1>Отзывы:</h1>
+        {% for review in reviews %}
+        <div class="card mb-4"> 
+          <div class="card-header">
+            <h5 class="">Кваритра: <a href="http://127.0.0.1:8000/{{ review.flat_id }}">{{ review.flat }}</a></h5>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Оценка: {{ review.rating }}</h5>
+            <p class="card-text">{{ review.text }}</p> 
+          </div>
+        </div>
+        {% endfor %} 
+        {% endif %}
+          
+      </div>
+    </form>
+  </div>
+{% endif %}
+<br>
+{% endblock %}

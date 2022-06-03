@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filter %}
+<div class="container-md" style="padding-top: 2px;">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {% for item in flats %}
+    <div class="card" style="padding: 3px;">
+      <img src="{{ item.photo.url }}" class="card-img">
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="color: rgb(0, 0, 0);">{{ item.address }}</h5>   
+        {% if item.reservations.all|count_true_reservations == 0 %}
+          <p class="card-text" style="color: green;">Свободна</p> 
+        {% elif item.reservations.all|count_true_reservations <= 3  %}
+        <strong style='color: red;'>Занятые даты:</strong>
+          {% for reserv in item.reservations.all %}
+          {% if reserv.arenda_date_finish|over_today %}
+            <p class="card-text" style="color: red;">{{ reserv }}</p>
+          {% endif %}
+          {% endfor %}
+        {% else %}
+            <a href="{{ item.get_absolute_url }}">См. подробнее...</a>
+        {% endif %}
+      </div>
+      <div class="card d-inline">
+        <a href="/reservation/{{ item.id }}" class="btn btn-success" style="width: min-content;">Забронировать</a>
+        <a href="{{ item.get_absolute_url }}" class="btn btn-primary" style="width: min-content;">Подробнее</a>
+        <a href="{{ item.get_absolute_url }}" class="btn btn-secondary" style="width: min-content;">Отзывы</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
